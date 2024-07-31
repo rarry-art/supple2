@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56cc324e-6049-467a-a78b-16bf537d0e1e" name="Changes" comment="Add management command to create dummy data for testing">
-      <change afterPath="$PROJECT_DIR$/news/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/templates/news/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/templates/news/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/templates/news/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/news/templates/news/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/news/views.py" afterDir="false" />
+    <list default="true" id="56cc324e-6049-467a-a78b-16bf537d0e1e" name="Changes" comment="Implement user registration and login functionality">
+      <change afterPath="$PROJECT_DIR$/news/management/commands/create_auth_dummy_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -113,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722418826237</updated>
-      <workItem from="1722418828688" duration="1755000" />
+      <workItem from="1722418828688" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: Basic Hacker News clone setup">
       <option name="closed" value="true" />
@@ -131,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722420395100</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement user registration and login functionality">
+      <option name="closed" value="true" />
+      <created>1722420610300</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722420610300</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit: Basic Hacker News clone setup" />
     <MESSAGE value="Add management command to create dummy data for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add management command to create dummy data for testing" />
+    <MESSAGE value="Implement user registration and login functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement user registration and login functionality" />
   </component>
 </project>
