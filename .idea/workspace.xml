@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56cc324e-6049-467a-a78b-16bf537d0e1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hackernewsclone.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackernewsclone/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackernewsclone/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackernewsclone/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackernewsclone/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackernewsclone/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/templates/news/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/templates/news/story_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/templates/news/story_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/news/urls.py" afterDir="false" />
+    <list default="true" id="56cc324e-6049-467a-a78b-16bf537d0e1e" name="Changes" comment="Initial commit: Basic Hacker News clone setup">
+      <change afterPath="$PROJECT_DIR$/news/management/commands/create_dummy_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "rarry-art"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/rarry-art/supple2.git",
+    "accountId": "4fb2d934-bf0a-4d2a-b8d5-bbefb8fa6aa9"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -107,11 +106,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722418826237</updated>
-      <workItem from="1722418828688" duration="1064000" />
+      <workItem from="1722418828688" duration="1425000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit: Basic Hacker News clone setup">
+      <option name="closed" value="true" />
+      <created>1722419920530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722419920530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit: Basic Hacker News clone setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: Basic Hacker News clone setup" />
   </component>
 </project>
