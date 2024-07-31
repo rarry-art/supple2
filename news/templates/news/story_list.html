@@ -1,0 +1,21 @@
+{% extends "news/base.html" %}
+
+{% block content %}
+    <h2>최신 스토리</h2>
+    <ul>
+    {% for story in stories %}
+        <li>
+            <h4 class="story-title">
+                <a href="{{ story.url }}">{{ story.title }}</a>
+            </h4>
+            <p class="story-meta">
+                {{ story.points }} 포인트 | 
+                <a href="{% url 'story_detail' story.id %}">{{ story.comments.count }} 댓글</a> | 
+                {{ story.created_at|timesince }} 전에 {{ story.user.username }}가 게시
+            </p>
+        </li>
+    {% empty %}
+        <li>아직 스토리가 없습니다.</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

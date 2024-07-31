@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Hacker News Clone{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <style>
+        body { padding-top: 50px; }
+        .container { max-width: 800px; }
+        .story-title { margin-bottom: 0; }
+        .story-meta { color: #888; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><a href="{% url 'story_list' %}">Hacker News Clone</a></h1>
+        </header>
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        <footer>
+            <p>&copy; 2024 Hacker News Clone</p>
+        </footer>
+    </div>
+</body>
+</html>

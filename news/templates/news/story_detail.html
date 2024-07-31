@@ -1,0 +1,30 @@
+{% extends "news/base.html" %}
+
+{% block title %}{{ story.title }} | {{ block.super }}{% endblock %}
+
+{% block content %}
+    <article>
+        <h2 class="story-title">
+            <a href="{{ story.url }}">{{ story.title }}</a>
+        </h2>
+        <p class="story-meta">
+            {{ story.points }} 포인트 |
+            {{ story.comments.count }} 댓글 |
+            {{ story.created_at|timesince }} 전에 {{ story.user.username }}가 게시
+        </p>
+    </article>
+
+    <section>
+        <h3>댓글</h3>
+        {% for comment in story.comments.all %}
+            <div class="comment">
+                <p>{{ comment.text }}</p>
+                <p class="story-meta">
+                    {{ comment.created_at|timesince }} 전에 {{ comment.user.username }}가 작성
+                </p>
+            </div>
+        {% empty %}
+            <p>아직 댓글이 없습니다.</p>
+        {% endfor %}
+    </section>
+{% endblock %}
